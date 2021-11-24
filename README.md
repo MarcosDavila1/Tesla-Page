@@ -1,4 +1,4 @@
-# Tesla Page
+# Tesla Landing Page
 
 ![Screenshot](tesla-home.png)
 
@@ -7,6 +7,28 @@
 ![Screenshot](tesla-sidemenu.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+
+## Why this project?
+
+I really like the tesla page, the smooth transitions, the clean ui. It is amazing!
+
+So, I decided to make the Tesla Landing Page for improve my skills!
+
+This project is part of my personal portfolio, so, I will be happy if you can provide me any feedback about the project, code, structure or anything. Your feedback will make me a better developer!
+
+Email-me: marcos.duarte242@gmail.com
+
+Connect with me at [LinkedIn](https://www.linkedin.com/in/marcosdavila2/).
+
+Also, you can use this Project as you wish, be for study, be for make improvements or earn money with it!
+
+It's free!
+
+## Some Observations about this App
+
+1 - There is no functionality Links.
+
+2 - The only option that works is the menu button, all the others buttons are just for UI matters.
 
 ## Available Scripts
 
