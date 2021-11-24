@@ -1,4 +1,4 @@
-# Tesla Landing Page
+# Tesla Landing Page (Still in Development)
 
 ![Screenshot](tesla-home.png)
 
@@ -26,9 +26,7 @@ It's free!
 
 ## Some Observations about this App
 
-1 - There is no functionality Links.
-
-2 - The only option that works is the menu button, all the others buttons are just for UI matters.
+- The only option that works now is the menu button, all other features will be available in a future patch.
 
 ## Available Scripts
 
