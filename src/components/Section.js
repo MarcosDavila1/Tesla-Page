@@ -34,7 +34,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
 export default Section;
 
 const Wrap = styled.div`
-z-index: 10;
+    z-index: 10;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -46,6 +46,7 @@ z-index: 10;
     justify-content: space-between;
     align-items: center;
     background-image: ${props => `url(/images/${props.bgImage})`};
+    scroll-snap-align: start;
 `;
 
 const ItemText = styled.div`
@@ -75,12 +76,22 @@ const LeftButton = styled.div`
     font-size: 12px;
     cursor: pointer;
     margin: 8px;
+
+    :hover {
+        background-color: rgba(23, 26, 32, 1);
+        transition: 0.4s ease;
+    }
 `;
 
 const RightButton = styled(LeftButton)`
-background: white;
-opacity: 0.65;
-color: black;
+    background: white;
+    opacity: 0.65;
+    color: black;
+
+    :hover {
+        background-color: lightgrey;
+        transition: 0.4s;
+    }
 `;
 
 const DownArrow = styled.img`

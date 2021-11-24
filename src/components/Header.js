@@ -9,9 +9,10 @@ function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
     const cars = useSelector(selectCars);
 
+
     return (
         <Container>
-            <a>
+            <a href="#">
                 <img src="/images/logo.svg" alt="Logo Tesla" />
             </a>
             <Menu>
@@ -65,11 +66,17 @@ const Menu = styled.div`
     align-items: center;
     justify-content: center;
     flex: 1;
+    padding-left: 150px;
 
     a {
         font-weight: 500;
         padding: 0 10px;
         flex-wrap: nowrap;
+    }
+    a:hover {
+        border-radius: 100px;
+        background: rgba(50,50,50, 0.1);
+        transition: 0.4s;
     }
 
     @media (max-width: 768px) {
@@ -81,6 +88,12 @@ const RightMenu = styled.div`
     a {
         font-weight: 500;
         margin-right: 10px;
+        padding: 0 10px;
+    }
+    a:hover {
+        border-radius: 100px;
+        background: rgba(50,50,50, 0.1);
+        transition: 0.4s;
     }
 
     @media (max-width: 768px) {
@@ -92,6 +105,12 @@ const TheMenu = styled.div`
     a {
         font-weight: 500;
         margin-right: 10px;
+        padding: 0 10px;
+    }
+    a:hover {
+        border-radius: 100px;
+        background: rgba(50,50,50, 0.1);
+        transition: 0.4s;
     }
 `;
 
@@ -111,17 +130,29 @@ const BurguerNav = styled.div`
     transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'};
     transition: transform 0.2s ease-in;
     li {
-        padding: 15px 0;
+        padding: 10px 10px;
         border-bottom: 1px solid rgba(0, 0, 0, .2);
 
         a {
             font-weight: 500;
         }
+
+        :hover {
+        border-radius: 10px;
+        background-color: rgb(240, 240, 240);
+        transition: 0.4s;
+    }
     }
 `;
 
 const CustomClose = styled(CloseIcon)`
     cursor: pointer;
+
+    :hover {
+        border-radius: 200px;
+        background-color: rgb(240, 240, 240);
+        transition: 0.4s;
+    }
 `;
 
 const CloseWrapper = styled.div`
